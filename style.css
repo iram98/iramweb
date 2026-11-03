@@ -29,3 +29,7 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .prose a.inline{color:#111;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 .prose ul.dash{list-style:none;margin:-12px 0 28px;padding:0;color:#666}
 .prose ul.dash li::before{content:"- "}
+.home{flex-direction:column;justify-content:center}
+.home .wrap{flex:1;display:flex;align-items:center}
+.meadow{display:block;width:min(100%,1100px);height:auto;margin:0 auto;pointer-events:none;user-select:none}
+@media (max-width:600px){.meadow{height:128px;object-fit:cover;object-position:50% 100%}}
