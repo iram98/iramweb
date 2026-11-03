@@ -32,4 +32,4 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .home{flex-direction:column;justify-content:center}
 .home .wrap{flex:1;display:flex;align-items:center}
 .meadow{display:block;width:min(100%,1100px);height:auto;margin:0 auto;pointer-events:none;user-select:none}
-@media (max-width:600px){.meadow{height:170px;object-fit:cover;object-position:50% 100%}}
+@media (max-width:600px){.meadow{height:128px;object-fit:cover;object-position:50% 100%}}
