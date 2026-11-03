@@ -24,5 +24,5 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .home header{gap:40px}
 .home nav{flex-direction:column;gap:10px;font-size:18px}
 @media (max-width:600px){.wrap{padding:48px 20px}h1{margin:72px 0 40px}nav,.name{font-size:16px}}
-.portrait{position:fixed;right:0;bottom:0;width:min(26vw,340px);height:auto;pointer-events:none}
-@media (max-width:1100px){.portrait{position:static;display:block;width:min(70%,280px);margin:24px 0 0 auto}}
+.portrait{float:right;width:260px;height:auto;margin:0 0 24px 48px}
+@media (max-width:700px){.portrait{float:none;display:block;width:min(70%,240px);margin:0 0 32px}}
