@@ -31,5 +31,5 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .prose ul.dash li::before{content:"- "}
 .home{flex-direction:column;align-items:stretch;justify-content:center}
 .home .wrap{flex:1;display:flex;align-items:center}
-.meadow{flex:none;width:100%;height:110px;background:url(images/meadow.svg) repeat-x center bottom/auto 100%;pointer-events:none}
+.meadow{flex:none;width:100%;height:110px;background:url(images/meadow.svg?v=4) repeat-x center bottom/auto 100%;pointer-events:none}
 @media (max-width:600px){.meadow{height:80px}}
