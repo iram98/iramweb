@@ -33,7 +33,7 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .home .wrap{flex:1;display:flex;align-items:center}
 .meadow{flex:none;width:100%;height:110px;background:url(images/meadow.svg?v=4) repeat-x center bottom/auto 100%;pointer-events:none}
 @media (max-width:600px){.meadow{height:80px}}
-.map{display:block;width:100%;max-width:680px;height:auto;margin:56px 0 0}
+.map{display:block;width:100%;max-width:680px;height:auto;margin:8px 0 40px}
 main{position:relative}
 .flies{position:absolute;right:0;top:-122px;width:100%;height:auto;pointer-events:none}
 @media (max-width:700px){.flies{position:static;display:block;width:100%;margin:-24px 0 16px}}
