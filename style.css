@@ -35,5 +35,6 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 @media (max-width:600px){.meadow{height:80px}}
 .map{display:block;width:100%;max-width:680px;height:auto;margin:56px 0 0}
 main{position:relative}
-.flies{position:absolute;right:0;top:-104px;width:100%;height:auto;pointer-events:none}
+.flies{position:absolute;right:0;top:-122px;width:100%;height:auto;pointer-events:none}
 @media (max-width:700px){.flies{position:static;display:block;width:100%;margin:-24px 0 16px}}
+@media (min-width:701px){.with-portrait{display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:48px}.with-portrait>*{grid-column:1}.with-portrait .portrait{grid-column:2;grid-row:1/span 20;align-self:center;float:none;margin:0}}
