@@ -24,8 +24,8 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 .home header{gap:40px}
 .home nav{flex-direction:column;gap:10px;font-size:18px}
 @media (max-width:600px){.wrap{padding:48px 20px}h1{margin:72px 0 40px}nav,.name{font-size:16px}}
-.portrait{float:right;width:260px;height:auto;margin:0 0 24px 48px}
-@media (max-width:700px){.portrait{float:none;display:block;width:min(70%,240px);margin:0 0 32px}}
+.portrait{float:right;width:320px;height:auto;margin:0 0 24px 48px}
+@media (max-width:700px){.portrait{float:none;display:block;width:min(80%,300px);margin:0 0 32px}}
 .prose a.inline{color:#111;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 .prose ul.dash{list-style:none;margin:-12px 0 28px;padding:0;color:#666}
 .prose ul.dash li::before{content:"- "}
@@ -37,4 +37,4 @@ a.row:hover .t{text-decoration:underline;text-underline-offset:4px}
 main{position:relative}
 .flies{position:absolute;right:0;top:-122px;width:100%;height:auto;pointer-events:none}
 @media (max-width:700px){.flies{position:static;display:block;width:100%;margin:-24px 0 16px}}
-@media (min-width:701px){.with-portrait{display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:48px}.with-portrait>*{grid-column:1}.with-portrait .portrait{grid-column:2;grid-row:1/span 20;align-self:center;float:none;margin:0}}
+@media (min-width:701px){.with-portrait{display:grid;grid-template-columns:minmax(0,1fr) 320px;column-gap:48px}.with-portrait>*{grid-column:1}.with-portrait .portrait{grid-column:2;grid-row:1/span 20;align-self:center;float:none;margin:0}}
