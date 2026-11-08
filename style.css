@@ -42,3 +42,4 @@ main{position:relative}
 .hang-l{left:max(16px,calc(50% - 460px - 150px))}
 .hang-r{right:max(16px,calc(50% - 460px - 150px))}
 @media (max-width:1180px){.hang{display:none}}
+.back{margin:56px 0 0}.back a{color:#666;text-decoration:none}.back a:hover{color:#111}
