@@ -57,3 +57,6 @@ main{position:relative}
 .gallery figure.fit{background:#efeeeb}.gallery figure.fit img{object-fit:contain}
 @media (max-width:600px){.gallery figure.tall{aspect-ratio:3/4}.gallery figure.solo{width:100%}}
 .gallery .cover{position:absolute;inset:0;z-index:2}
+.gallery .open{position:absolute;bottom:14px;right:14px;padding:8px 14px;background:#fff;color:#111;border:1px solid #111;border-radius:999px;font-size:14px;line-height:1;letter-spacing:.02em;transition:background .2s,color .2s}
+.gallery figure:hover .open,.gallery .cover:focus .open{background:#111;color:#fff}
+.gallery figure:has(.open) figcaption{padding-right:170px}
