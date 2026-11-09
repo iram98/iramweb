@@ -66,3 +66,8 @@ main{position:relative}
 .steps{margin:0 0 14px;padding-left:1.6em}
 .steps li{margin:2px 0;padding-left:4px}
 .list .desc li{border:0}
+.more summary{cursor:pointer;list-style:none;display:inline-block;margin:0 0 14px;color:#111;text-decoration:underline;text-underline-offset:3px}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:" ↓"}
+.more[open] summary::after{content:" ↑"}
+.more[open] summary{margin-bottom:14px}
