@@ -71,3 +71,4 @@ main{position:relative}
 .more summary::after{content:" ↓"}
 .more[open] summary::after{content:" ↑"}
 .more[open] summary{margin-bottom:14px}
+.trees{display:block;width:100%;max-width:720px;height:auto;margin:72px auto 0}
