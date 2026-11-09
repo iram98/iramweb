@@ -56,3 +56,4 @@ main{position:relative}
 .gallery figure.solo{grid-column:1/-1;justify-self:center;width:calc(50% - 8px)}
 .gallery figure.fit{background:#efeeeb}.gallery figure.fit img{object-fit:contain}
 @media (max-width:600px){.gallery figure.tall{aspect-ratio:3/4}.gallery figure.solo{width:100%}}
+.gallery .cover{position:absolute;inset:0;z-index:2}
