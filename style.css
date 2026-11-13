@@ -78,3 +78,8 @@ main{position:relative}
 .peek video{width:180px;max-height:none;height:320px}
 .reveal{display:inline-block;padding-right:.6em;box-sizing:border-box;max-width:0;overflow:hidden;vertical-align:bottom;white-space:nowrap;opacity:0;transition:max-width .4s ease,opacity .3s ease}
 .row:hover .reveal,.row:focus-visible .reveal{max-width:22em;opacity:1}
+.swing{position:absolute;top:0;left:min(calc(50% + 390px - 132px),calc(100% - 250px));width:240px;height:360px;pointer-events:none;z-index:-1;transform-origin:132px 0;animation:swing 5s ease-in-out infinite alternate;transform:rotate(-24deg)}
+.swing svg{display:block;width:100%;height:100%}
+@keyframes swing{from{transform:rotate(-24deg)}to{transform:rotate(24deg)}}
+@media (max-width:900px){.swing{left:auto;right:-40px;scale:.6;transform-origin:132px 0}}
+@media (prefers-reduced-motion:reduce){.swing{animation:none;transform:rotate(-12deg)}}
