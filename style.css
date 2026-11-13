@@ -76,3 +76,5 @@ main{position:relative}
 .peek:hover img,.peek:focus-visible img,.peek:hover video,.peek:focus-visible video{opacity:1;transform:none}
 .peek:not(:has(img,video))::after{content:" ↗";font-size:.85em}
 .peek video{width:180px;max-height:none;height:320px}
+.reveal{display:inline-block;max-width:0;overflow:hidden;vertical-align:bottom;white-space:nowrap;opacity:0;transition:max-width .4s ease,opacity .3s ease}
+.row:hover .reveal,.row:focus-visible .reveal{max-width:22em;opacity:1}
