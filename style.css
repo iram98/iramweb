@@ -71,3 +71,6 @@ main{position:relative}
 .more summary::after{content:" ↓"}
 .more[open] summary::after{content:" ↑"}
 .more[open] summary{margin-bottom:14px}
+.peek{position:relative;color:#111;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}
+.peek img{position:absolute;left:0;bottom:calc(100% + 10px);width:min(280px,70vw);height:auto;max-height:240px;object-fit:cover;opacity:0;transform:translateY(6px);pointer-events:none;transition:opacity .25s ease,transform .25s ease;box-shadow:0 8px 24px rgba(0,0,0,.18);z-index:5;background:#fff}
+.peek:hover img,.peek:focus-visible img{opacity:1;transform:none}
